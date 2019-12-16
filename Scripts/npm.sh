@@ -16,3 +16,7 @@ echo ""
 echo "[NPM] Installing TypeScript"
 sudo npm install -g typescript
 echo ""
+
+echo "Installing Meteor"
+sudo curl https://install.meteor.com/ | sh
+ehco ""
