@@ -16,6 +16,7 @@ process_option() {
       source scripts/system.sh
       brew bundle
       bundle install
+      source scripts/app-config.sh
       source scripts/dev.sh
       source scripts/git.sh
       source scripts/npm.sh
@@ -23,6 +24,7 @@ process_option() {
       break;;
     'brew')
       brew bundle
+      source scripts/app-config.sh
       break;;
     'config')
       source scripts/config.sh
